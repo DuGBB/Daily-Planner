@@ -39,7 +39,7 @@ for (let index = 0; index < tableList.length; index++) {
     cellThree.setAttribute("class", "saveBtn");
      var cellSave = document.createElement("input");
      cellSave.setAttribute("type", "image");
-     cellSave.setAttribute("src", "/assets/images/1x/outline_save_black_24dp.png");
+     cellSave.setAttribute("src", "./assets/images/1x/outline_save_black_24dp.png");
      cellSave.setAttribute("id", "save" + index);
      cellSave.setAttribute("name", "save" + index);
      cellSave.addEventListener("click", function() {
