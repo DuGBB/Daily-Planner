@@ -17,7 +17,8 @@ for (let index = 0; index < tableList.length; index++) {
     cellOne.innerHTML = element;
     var cellTwo = document.createElement("td");
     var cellText = document.createElement("textarea");
-    //cellText.setAttribute("class", "description");
+    //cellText.setAttribute("cols", "63");
+
     cellTwo.appendChild(cellText);
     cellTwo.setAttribute("class", "past");
     var cellThree = document.createElement("td");
