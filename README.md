@@ -15,5 +15,5 @@ I did this bye:
 To view, open this link in the browser of your choice:
 https://dugbb.github.io/Daily-Planner/
 
-# Screensh0t
-![dailyplanner screenshot](assets/images/DailyPlannerScreenshot.xcf?raw=true "dailyplanner")
+# Screenshot
+![dailyplanner screenshot](assets/images/DailyPlannerScreenshot.png?raw=true "dailyplanner")
