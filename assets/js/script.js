@@ -20,7 +20,17 @@ for (let index = 0; index < tableList.length; index++) {
     //cellText.setAttribute("cols", "63");
 
     cellTwo.appendChild(cellText);
-    cellTwo.setAttribute("class", "past");
+    //cellTwo.setAttribute("class", "past");
+    var hour = moment().hour();
+    if (hour === index + 9) {
+        cellTwo.setAttribute("class", "present");
+    } else if (hour > index + 9) {
+        cellTwo.setAttribute("class", "past");
+    } else {
+        cellTwo.setAttribute("class", "future");
+    }
+
+   // var momentDisplay = moment(hour).format("dddd, MMMM Do");
     var cellThree = document.createElement("td");
     cellThree.setAttribute("class", "saveBtn");
     //cellThree.innerHtml = "";
